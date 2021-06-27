@@ -1,0 +1,21 @@
+.main1{
+    margin: 0%;
+    padding:0;
+    display: flex;
+    background-image: url(./web-images/77caa32884d735d439ade45ba37feaf2.gif);
+    background-repeat: no-repeat;
+    width: inherit;
+    
+}
+.left{
+    background-color: #000023;
+    width: 45%;
+    height: inherit;
+    margin-top: 10%;
+}
+.right{
+    background-color: #000023;
+    width: 45%;
+    height: inherit;
+    margin-top: 10%;
+}
