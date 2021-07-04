@@ -1,0 +1,130 @@
+.project{
+    background-image: url(./web-images/vaporwave-nawpic-20.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.project h1{
+    margin:auto;
+    color: #13ffff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #000023;
+    height: fit-content;
+}
+.project-line{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.images{
+    width:70%;
+    height: 20%;
+    margin-bottom: 5%;
+}
+.fade{
+    display: flex;
+    justify-content: center;
+}
+.fade::after{
+    content: "";
+    color:white;
+    font-size: 4rem;
+    background:transparent;
+    position: absolute;
+    transition: 0.6s ease-in-out cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    
+}
+.fade:hover::after{
+    content: "ANIMAX.";
+    color:black;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+}
+.fade2::after{
+    content: "";
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    background: transparent;
+    position: absolute;
+    transition: 0.6s ease-in-out cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.fade2:hover::after{
+    content: "Adaptable.";
+    color:black;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    text-transform: uppercase;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+}
+.fade3::after{
+    content: "";
+    color:white;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    position: absolute;
+    transition: 0.6s ease-in-out cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.fade3:hover::after{
+    content: "Cedric villa.";
+    color: black;;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    text-transform: uppercase;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+}
+.fade4::after{
+    content: "";
+    color:white;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    position: absolute;
+    transition: 0.6s ease-in-out cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.fade4:hover::after{
+    content: "profile.";
+    color:black;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    text-transform: uppercase;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+}
+.fade5::after{
+    content: "";
+    color:white;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    position: absolute;
+    transition: 0.6s ease-in-out cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.fade5:hover::after{
+    content: "food blog.";
+    color: #fa33b2;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    text-transform: uppercase;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+}
+@media screen and (max-width:600px) {
+    .images{
+        width: 100%;
+        height: 10%;
+    }
+    
+}
